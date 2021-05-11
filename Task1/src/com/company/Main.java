@@ -3,6 +3,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        HomeCat homeCat = new HomeCat();
+        homeCat.layOnSofa();
+
+        WildCat wildCat = new WildCat();
+        wildCat.hatePeople();
+
     }
 }
