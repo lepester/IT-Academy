@@ -2,16 +2,20 @@ package com.company;
 
 public class WildCat extends Cat {
 
-    public String getMaster() {
-        return "Master";
+    public String getName() {
+        return this.name;
     }
 
-    public String getName() {
-        return "Guts";
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getBreed() {
-        return "Maine Coon";
+        return this.name;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
     }
 
     public void hatePeople(){
@@ -42,7 +46,7 @@ public class WildCat extends Cat {
         System.out.println(" ");
         System.out.println("P.P.S ability of his stand is to erase the time and leave only result of it.");
         System.out.println(" ");
-        System.out.println(getMaster() + ": oh, here is my money.");
+        System.out.println("Master: oh, here is my money.");
         System.out.println("--Hey, Mista, are you going to drink coffee with us?");
         System.out.println("--Sure!");
     }
