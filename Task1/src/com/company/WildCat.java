@@ -18,7 +18,7 @@ public class WildCat extends Cat {
         this.breed = breed;
     }
 
-    public void hatePeople(){
+    public void hatePeople() {
         System.out.println(" ");
         System.out.println(getName() + " is a wild " + getBreed() + " cat, who lives in the same town as Herbert.");
         System.out.println(getName() + " has no home cause he's owner left him, when " + getName() + " was only 2 months.");
