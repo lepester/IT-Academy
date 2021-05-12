@@ -11,7 +11,7 @@ public class WildCat extends Cat {
     }
 
     public String getBreed() {
-        return this.name;
+        return this.breed;
     }
 
     public void setBreed(String breed) {
@@ -20,11 +20,11 @@ public class WildCat extends Cat {
 
     public void hatePeople() {
         System.out.println(getName() + " is a wild " + getBreed() + " cat, who lives in the same town as Herbert.\n" + getName() +
-                " has no home cause he's owner left him, when " + getName() + " was only 2 months." +
+                " is a homeless cat cause his owner left him, when " + getName() + " was only 2 months old." +
                 "\nActually " + getName() + " hates people. " + "Despite of that " + getName() + " is a kind cat. He helps a lot to Morioh's residents." +
                 "\n\nP.S. Morioh is a town located in Japan. There are only 27 residents live, including the Master.\n" +
-                "\nExactly on this day " + getName() + " walks on the streets of Morioh:" +
-                "\n\"--Oh noooo! My money collection!!!\"\n" + getName() + " thought to myself: \"--What? There can be no doubt. This is a work of stand.\"");
+                "\nOn the same day as Herbert had stolen the money from his Master " + getName() + " was walking on the streets of Morioh and he heard a loud noise:" +
+                "\n\"--Oh noooo! My money collection!!!\"\n" + getName() + " thought to myself: \"--What? There can be no doubt. This is a work of a stand.\"");
     }
 
     public void saveWorld() {
@@ -35,7 +35,7 @@ public class WildCat extends Cat {
                 "\nMemories flew through " + getName() + "' head.\n" +
                 "\n--I don't want him to feel bad. I must help him, thought " + getName() + "." +
                 "\n--With my stand I can do it. Come on,「The WORLD」" +
-                "\n\nP.P.S ability of his stand is to erase the time and leave only result of it.\n" +
+                "\n\nP.P.S ability of his stand is to erase a short amount of time (5-10 seconds) in the whole world.\n" +
                 "\nMaster: oh, here is my money." +
                 "\n--Hey, Josuke, are you going to drink coffee with us?\n" + "--Sure!");
     }
