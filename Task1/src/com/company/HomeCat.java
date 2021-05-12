@@ -16,7 +16,7 @@ public class HomeCat extends Cat {
     }
 
     public String getBreed() {
-        return this.name;
+        return this.breed;
     }
 
     public void setBreed(String breed) {
@@ -24,21 +24,21 @@ public class HomeCat extends Cat {
     }
 
     public void layOnSofa(){
-        System.out.println("It was a sunny day. Our cute cat is laying on sofa peacefully. He's name is " + getName() +
+        System.out.println("It was a sunny day. Our cute cat is laying on sofa, peacefully. He's name is " + getName() +
                 "\nThick and fluffy fur makes him very adorable.\n" +
                 "\n--I'm going to work, so be a pretty kitty, " + getName() + "." +
                 "\n--Meooww, said Herbert." +
                 "\n\n|| Master closed the door and left the home ||\n" +
-                "\nTime has passed. " + getName() + " thought to myself: \"--I'm bored\"." +
-                "\nSuddenly he looked at the door's side. To be more precise he looks at the shoes which lies there.");
+                "\nTime has passed. " + getName() + " thought to himself: \"--I'm bored\"." +
+                "\nSuddenly, he looked at the door. To be more precise he looked at the shoes which lies there.");
     }
 
     public void spoilOnShoes() {
         System.out.println("\nHerbert is a tricky " + getBreed() + " cat, who likes to be sometimes a bad boi." +
-                "\nHerbert stood up and start to go right to the shoes." +
+                "\nHerbert stood up and started going right to the shoes." +
                 "\n\nP.S. Herbert has an ability to spoil on shoes, so Master looses his money. Herbert calls it 「The CASH」.\n" +
-                "\nHerbert thought to myself: \"I need to do this! Leess GO, 「The CASH」!\"" +
-                "\n\nP.P.S. Main ability of 「The CASH」 is MONEY BACK. It's stealing the money from it's owner and return to the " + getName() + ".\n" +
+                "\nHerbert thought to himself: \"I need to do this! Leess GO, 「The CASH」!\"" +
+                "\n\nP.P.S. Main ability of 「The CASH」 is MONEY BACK. This ability steals the money from target and provides it to " + getName() + ".\n" +
                 "\n|| Master has lost the money ||\n" +
                 "\nMaster said: \"--Oh noooo! My money collection!!!\"" +
                 "\n\n----------------------------------------------------------------\n");
