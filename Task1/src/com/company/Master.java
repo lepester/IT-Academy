@@ -1,10 +1,11 @@
 package com.company;
 
-public abstract class Master {
+public class Master {
     protected String master;
     protected int money;
 
-    public String getMaster() {
-        return master;
+    public Master(String master, int money) {
+        this.master = master;
+        this.money = money;
     }
 }
