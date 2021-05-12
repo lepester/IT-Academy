@@ -1,6 +1,12 @@
 package com.company;
+import com.company.Master;
 
 public class HomeCat extends Cat {
+    protected int money = 3;
+
+    public String getMaster() {
+        return "Master";
+    }
 
     public String getName() {
         return "Herbert";
@@ -28,14 +34,14 @@ public class HomeCat extends Cat {
             System.out.println("Herbert is a tricky " + getBreed() + " cat, who likes to be sometimes a bad boi.");
             System.out.println("Herbert stood up and start to go right to the shoes.");
             System.out.println(" ");
-            System.out.println("P.S. Herbert has an ability to spoil on shoes, so " + master + " looses his money. Herbert calls it 「The CASH」.");
+            System.out.println("P.S. Herbert has an ability to spoil on shoes, so " + getMaster() + " looses his money. Herbert calls it 「The CASH」.");
             System.out.println(" ");
             System.out.println("Herbert thought to myself: \"I need to do this! Leess GO, 「The CASH」!\"");
             System.out.println(" ");
             System.out.println("P.P.S. Main ability of 「The CASH」 is MONEY BACK. It's stealing the money from it's owner and return to the " + getName() + ".");
             System.out.println(" ");
-            System.out.println("|| " + master + " has lost the money ||");
-            System.out.println(master + " said: \"--Oh noooo! My money collection!!!\"");
+            System.out.println("|| " + getMaster() + " has lost the money ||");
+            System.out.println(getMaster() + " said: \"--Oh noooo! My money collection!!!\"");
             System.out.println("----------------------------------------------------------------");
             money--;
         }
