@@ -1,8 +1,6 @@
 package com.company;
-import com.company.Master;
 
 public class HomeCat extends Cat {
-    protected int money = 3;
 
     public String getMaster() {
         return "Master";
@@ -30,7 +28,8 @@ public class HomeCat extends Cat {
     }
 
     public void spoilOnShoes() {
-        while (money > 2) {
+        for (int money = 3; money > 2; money--)
+        {
             System.out.println("Herbert is a tricky " + getBreed() + " cat, who likes to be sometimes a bad boi.");
             System.out.println("Herbert stood up and start to go right to the shoes.");
             System.out.println(" ");
@@ -43,7 +42,6 @@ public class HomeCat extends Cat {
             System.out.println("|| " + getMaster() + " has lost the money ||");
             System.out.println(getMaster() + " said: \"--Oh noooo! My money collection!!!\"");
             System.out.println("----------------------------------------------------------------");
-            money--;
         }
     }
 }
