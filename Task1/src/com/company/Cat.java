@@ -2,8 +2,10 @@ package com.company;
 
 public abstract class Cat {
 
-    private String name;
-    private String breed;
+    protected String name;
+    protected String breed;
+    protected String master = "Master";
+    protected int money = 3;
 
     public String getName() {
         return name;
@@ -12,6 +14,4 @@ public abstract class Cat {
     public String getBreed() {
         return breed;
     }
-
-
 }
