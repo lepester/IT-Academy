@@ -2,17 +2,26 @@ package com.company;
 
 public class Main {
     public static void main(String[] args) {
-        HomeCat homeCat = new HomeCat("Josuke", 3);
-        homeCat.setName("Herbert");
-        homeCat.setBreed("Munchkin");
-        homeCat.layOnSofa();
-        homeCat.spoilOnShoes();
+        HomeCat herbert = new HomeCat("Josuke", 3);
+        herbert.setName("Herbert");
+        herbert.setBreed("Munchkin");
+        herbert.layOnSofa();
+        herbert.spoilOnShoes();
 
-        WildCat wildCat = new WildCat();
-        wildCat.setName("Guts");
-        wildCat.setBreed("Maine Coon");
-        wildCat.hatePeople();
-        wildCat.saveWorld();
+        HomeCat shierke = new HomeCat("Steve", 4);
+        shierke.setName("Shierke");
+        shierke.setBreed("Norwegian Forest Cat");
+
+
+        WildCat guts = new WildCat();
+        guts.setName("Guts");
+        guts.setBreed("Maine Coon");
+        guts.hatePeople();
+        guts.saveWorld();
+
+        WildCat serpiko = new WildCat();
+        serpiko.setName("Serpiko");
+        serpiko.setBreed("Persian Cat");
     }
 }
 
