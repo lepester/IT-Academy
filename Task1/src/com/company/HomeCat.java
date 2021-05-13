@@ -1,7 +1,7 @@
 package com.company;
 
 public class HomeCat extends Cat {
-    public Master master;
+    private Master master;
 
     public HomeCat(String masterType, int money) {
         this.master = new Master(masterType, money);
