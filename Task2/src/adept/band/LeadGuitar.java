@@ -8,7 +8,7 @@ public class LeadGuitar extends  Human implements BandActions {
 
     @Override
     public void sayMyName() {
-        System.out.println("My name is Tomas. My guitar is tuned. I'm ready to give you some energy");
+        System.out.println("My name is Thomas. My guitar is tuned. I'm ready to give you some energy.");
     }
 
     @Override

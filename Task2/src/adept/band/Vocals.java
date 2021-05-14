@@ -13,7 +13,7 @@ public class Vocals extends Human implements BandActions {
 
     @Override
     public void play() {
-        System.out.println("Pizza mozzarella, pizza mozzarella, rella-rella-rella-rella");
+        System.out.println("Pizza mozzarella, pizza mozzarella, rella-rella-rella-rella!");
     }
 
     public void play(String withGuitar) {
