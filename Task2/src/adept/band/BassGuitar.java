@@ -1,7 +1,6 @@
 package adept.band;
 
 public class BassGuitar extends Human implements BandActions {
-
     @Override
     public void setMembersAmount() {
         System.out.println(MEMBERS_AMOUNT);
@@ -25,3 +24,4 @@ public class BassGuitar extends Human implements BandActions {
         return 22;
     }
 }
+

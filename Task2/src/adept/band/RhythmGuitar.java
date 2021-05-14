@@ -1,7 +1,6 @@
 package adept.band;
 
 public class RhythmGuitar extends Human implements BandActions {
-
     @Override
     public void setMembersAmount() {
         System.out.println(MEMBERS_AMOUNT);
@@ -24,5 +23,5 @@ public class RhythmGuitar extends Human implements BandActions {
     public int getHairLength() {
         return 9;
     }
-
 }
+

@@ -7,3 +7,4 @@ public abstract class Human {
         System.out.println("Hair Length is: " + human.getHairLength());
     }
 }
+

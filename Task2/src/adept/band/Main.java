@@ -1,14 +1,12 @@
 package adept.band;
 
 public class Main extends Human {
-
     @Override
     public int getHairLength() {
         return 0;
     }
 
     public static void main(String[] args) {
-
         Vocals robert = new Vocals();
         robert.setMembersAmount();
         robert.sayMyName();
@@ -41,3 +39,4 @@ public class Main extends Human {
         harry.play("my vocal abilities.");
     }
 }
+

@@ -1,7 +1,6 @@
 package adept.band;
 
 public class Vocals extends Human implements BandActions {
-
     @Override
     public void setMembersAmount() {
         System.out.println("Our band has " + MEMBERS_AMOUNT + " members.");
@@ -24,5 +23,5 @@ public class Vocals extends Human implements BandActions {
     public int getHairLength() {
         return 15;
     }
-
 }
+
