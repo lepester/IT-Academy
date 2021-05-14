@@ -8,7 +8,7 @@ public class Drums extends Human implements BandActions {
 
     @Override
     public void sayMyName() {
-        System.out.println("My name is Harry. You're lucky because you can hear my awesome blast beats");
+        System.out.println("My name is Harry. You're lucky because you can hear my awesome blast!");
     }
 
     @Override

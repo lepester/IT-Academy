@@ -16,15 +16,15 @@ public class Main extends Human {
 
         LeadGuitar tomas = new LeadGuitar();
         tomas.sayMyName();
+        hairLength(new LeadGuitar());
         tomas.play();
         tomas.play("my vocals.");
 
         RhythmGuitar henry = new RhythmGuitar();
         henry.sayMyName();
-        hairLength(new LeadGuitar());
+        hairLength(new RhythmGuitar());
         henry.play();
         henry.play("my scream.");
-        hairLength(new RhythmGuitar());
 
         BassGuitar bobs = new BassGuitar();
         bobs.sayMyName();
