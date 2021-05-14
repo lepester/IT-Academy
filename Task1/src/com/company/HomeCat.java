@@ -42,7 +42,7 @@ public class HomeCat extends Cat {
                 "\n|| Master has lost the money ||\n" +
                 "\nMaster said: \"--Oh noooo! My money collection!!!\"" +
                 "\n\n----------------------------------------------------------------\n");
-            this.master.money -= 1;
+            this.master.money -= 2;
     }
 }
 
